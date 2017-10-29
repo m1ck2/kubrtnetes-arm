@@ -161,10 +161,10 @@ then
     exit
 fi
 
-    update
-    deps
-    install_docker "${docker_version}"
-    install_kubernetes
+update
+deps
+install_docker "${docker_version}"
+install_kubernetes
 info "Info" "Docker and Kubernetes have been installed"
 info "Info" "You might want to check:"
 info "Info" "docker version"
